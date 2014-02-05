@@ -1,0 +1,278 @@
+/* -----------------------------------RESET CSS------------------------------------------------------ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -----------------------------------RESET CSS------------------------------------------------------ */
+
+html {
+	background: url("../img/background1.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	border-bottom-right-radius: 10px black;
+	background-color: #1d7f2f;
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+	
+
+body {
+	color:white;
+	font-size: 62.5%;
+}
+
+a {
+	text-decoration: none;
+	color:#303030;
+}
+
+nav ul {
+	font-size: 2em;
+	text-shadow: 0px 0px 1px rgba(43, 116, 184, 0.3);
+	color: white;
+	letter-spacing: 2px;
+	margin:30px auto 30px auto;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline;
+}
+
+
+a:hover {
+	color: rgba(174, 106, 57, 0.6);
+}
+
+
+h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 15.5em;
+	color:#2B74B8;
+	text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+	margin:20px auto 10px auto;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 2.1em;
+	color:#FFFFE5;
+	padding:5px 0 15px 0;
+	line-height: 103%
+}
+
+#wrapper {
+	text-align: center;
+	width:40%;
+	margin: auto;
+}
+
+section,
+aside {
+	background-color: green;
+	background-color: hsla(139, 96%, 6%, 0.4);
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	font-size: 1.8em;
+	text-align: left;
+	margin:10px;
+	padding:15px;
+	overflow:hidden;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(43, 116, 184, 0.3);
+	-moz-box-shadow:    1px 1px 1px 0px rgba(43, 116, 184, 0.3);
+	box-shadow:         1px 1px 1px 0px rgba(43, 116, 184, 0.3);
+}
+
+section {
+	width:100%;
+	min-width:250px;
+	line-height: 125%;
+}
+
+aside {
+	width: 100%;
+	min-width:250px;
+	line-height: 110%;
+	text-align: left;
+	clear:left;
+	background-color: hsla(139, 96%, 6%, 0.3);
+}
+
+img {
+	width:45%;
+	height:100%;
+	margin:0px 20px 20px 0;
+	padding:5px;
+	float:right;
+}
+
+ol { 
+list-style-image: url(../img/football.png); 
+margin-left: 30px;
+} 
+
+
+ol li {
+	margin:3px 0;
+}
+
+
+footer {
+	text-align: center;
+	display: block;
+	color: #DAD9DB;
+	font-size:1.5em;
+	margin:15px auto;
+}
+
+span {
+	color:orange;
+	font-size: 1.15em;
+}
+
+.btn1 {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #f5f2f5;
+  font-size: 21px;
+  background: #2B74B8;
+  padding: 10px 20px 10px 20px;
+  margin:5% 15%;
+  text-decoration: none;
+  float:left;
+}
+
+.btn2 {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #f5f2f5;
+  font-size: 21px;
+  background: #2B74B8;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  float:left;
+  margin-left: 40%;
+  margin-top: 3%;
+}
+
+.btn3 {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #f5f2f5;
+  font-size: 21px;
+  background: #2B74B8;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  float:left;
+  margin-left: 40%;
+  margin-top: 3%;
+}
+
+.btn4 {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #f5f2f5;
+  font-size: 21px;
+  background: #2B74B8;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  float:left;
+  margin-left: 40%;
+  margin-top: 3%;
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover {
+  background: #349bdb;
+  background-image: -webkit-linear-gradient(top, #349bdb, #3498db);
+  background-image: -moz-linear-gradient(top, #349bdb, #3498db);
+  background-image: -ms-linear-gradient(top, #349bdb, #3498db);
+  background-image: -o-linear-gradient(top, #349bdb, #3498db);
+  background-image: linear-gradient(to bottom, #349bdb, #3498db);
+  text-decoration: none;
+  color:#f5f2f5;
+}
+
+/*------------MEDIA QUERIES-------------------*/
+
+@media only screen and (max-width: 810px) {
+	h1 {
+		font-size: 9em;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+
+   h1 { 
+   	font-size: 5em; 
+   }
+   nav ul li {
+   	font-size: 0.7em; 
+   }
+	h2{
+		line-height: 105%
+	}
+	img {
+		display:none;
+	}
+
+	#wrapper {
+		margin: none;
+		float:left;
+	}
+	footer {
+		float:left;
+	}
+}
